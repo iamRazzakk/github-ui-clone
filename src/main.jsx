@@ -9,6 +9,7 @@ import {
 import HomePage from './components/pages/HomePage.jsx';
 import Login from './components/pages/Login/Login.jsx';
 import Singup from './components/pages/Singup/Singup.jsx';
+import LikePage from './components/pages/LikePage/LikePage.jsx';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -25,6 +26,10 @@ const router = createBrowserRouter([
       {
         path: '/signup',
         element: <Singup></Singup>
+      },
+      {
+        path: '/likes',
+        element: <LikePage></LikePage>
       }
     ]
   }
