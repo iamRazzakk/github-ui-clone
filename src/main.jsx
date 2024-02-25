@@ -10,6 +10,7 @@ import HomePage from './components/pages/HomePage.jsx';
 import Login from './components/pages/Login/Login.jsx';
 import Singup from './components/pages/Singup/Singup.jsx';
 import LikePage from './components/pages/LikePage/LikePage.jsx';
+import ExplorePage from './components/pages/ExplorePage/ExplorePage.jsx';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -30,6 +31,10 @@ const router = createBrowserRouter([
       {
         path: '/likes',
         element: <LikePage></LikePage>
+      },
+      {
+        path: '/explore',
+        element: <ExplorePage></ExplorePage>
       }
     ]
   }

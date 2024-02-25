@@ -28,6 +28,6 @@ body {
 }
 @layer components{
     .bg-glass{
-        @apply w-full bg-gray-500  bg-clip-padding backdrop-filter backdrop-blur-xl bg-opacity-10  border-gray-100 hover:bg-gray-900
+        @apply w-full bg-gray-500  bg-clip-padding backdrop-filter backdrop-blur-xl bg-opacity-10 border border-gray-800 hover:bg-gray-900
     }
 }
